@@ -67,7 +67,8 @@ suite('Functional Tests', function () {
 });
 
 const Browser = require('zombie');
-Browser.site = "https://boilerplate-mochachai.readingshades.repl.co";
+//Browser.site = "https://boilerplate-mochachai.readingshades.repl.co";
+Browser.site = "http://0.0.0.0:3000";
 suite('Functional Tests with Zombie.js', function () {
   this.timeout(300000);
   const browser = new Browser();
